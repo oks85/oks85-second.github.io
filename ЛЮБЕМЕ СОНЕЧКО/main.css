@@ -1,0 +1,90 @@
+@import url(reset.css);
+.conteiner{
+    width: 900px;
+    height: 650px;
+    /* background: linear-gradient(); */
+    margin: 0 auto;
+    background-image: radial-gradient(closest-corner at 50px 50px, rgb(158, 27, 181), rgb(255, 0, 174));
+    padding: 1rem;
+  
+
+}
+.conteiner:hover {
+    background-image: radial-gradient(farthest-side at 20px 20px, rgb(202, 27, 141), rgb(0, 81, 255));
+  }
+  .box{
+    width: 600px;
+    height: 70px;
+    background-color: rgb(135, 135, 222);
+    border-radius: 21px;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+  p{
+ margin-left: 120px;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: xx-large;
+color: rgb(214, 226, 43);
+font-style: italic;
+
+  
+  }
+  .imeg{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 21px;
+    border:10px solid gray;
+    border-style: inset;
+  }
+.box-1{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    
+    top: 50px;
+}
+.box-2{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left:200px;
+    bottom: 310px;
+    
+
+}
+.link{
+  width: 50px;
+  height: 20px;
+
+  position: relative;
+  top: 30px;
+  right: 220px;
+}
+.fiori{
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
+  position: relative;
+ left:650;
+ bottom: 450px;
+
+}
+
+.box3{
+  position: relative;
+  left: 13px;
+  
+}
+.box4{
+position: relative;
+left: 125px;
+bottom: 50px;
+
+}
+.box5{
+  position: relative;
+  left: 240px;
+  bottom: 180px;
+  
+}
